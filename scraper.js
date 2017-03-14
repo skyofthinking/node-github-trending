@@ -33,7 +33,7 @@ function git_add_commit_push(data, filename) {
     });
 }
 
-//检测文件或者文件夹存在 nodeJS
+//检测文件或者文件夹存在
 function fsExistsSync(path) {
     try {
         fs.accessSync(path, fs.F_OK);
