@@ -1,0 +1,21 @@
+{
+  "name": "node-github-trending",
+  "version": "1.0.0",
+  "description": "Github Trending",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Github"
+  ],
+  "author": "Kestrel",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "jsdom": "^9.11.0",
+    "moment": "^2.17.1",
+    "node-schedule": "^1.2.0"
+  }
+}
