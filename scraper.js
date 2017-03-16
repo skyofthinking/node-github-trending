@@ -143,7 +143,7 @@ function job() {
 
 // 30 21 * * *
 // 30 * * * * *
-var j = schedule.scheduleJob('30 21 * * *', function () {
+var j = schedule.scheduleJob('30 9 * * *', function () {
     console.log('执行任务' + moment().format('YYYY-MM-DD HH:mm:ss'));
     job();
 });
