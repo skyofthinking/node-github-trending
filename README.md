@@ -29,6 +29,15 @@ npm install -g pm2
 # pm2 start scraper.js
 pm2 start scraper.js
 ```
+
+### 文件生成异常
+
+根据日期重新生成。
+
+``` bash
+node scraper.js 2017-10-28 2017
+```
+
 ### Node库
 - [tmpvar/jsdom](https://github.com/tmpvar/jsdom) 解析页面信息
 - [node-schedule/node-schedule](https://github.com/node-schedule/node-schedule) 定时任务

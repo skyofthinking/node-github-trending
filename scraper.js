@@ -118,6 +118,11 @@ function scrape(languages, filename) {
 function job() {
     var strdate = moment().format('YYYY-MM-DD');
     var stryear = moment().format('YYYY');
+
+    job_start(strdate, stryear);
+}
+
+function job_start(strdate, stryear) {
     var filename = util.format('%s/%s.md', stryear, strdate);
 
     createDir();
@@ -143,7 +148,12 @@ function job() {
 
 // 30 21 * * *
 // 30 * * * * *
-var j = schedule.scheduleJob('30 9 * * *', function () {
-    console.log('执行任务' + moment().format('YYYY-MM-DD HH:mm:ss'));
-    job();
-});
+var arguments = process.argv.splice(2);
+if (typeof(arguments[0]) != 'undefined') {
+    job_start(arguments[0], arguments[1])
+} else {
+    var j = schedule.scheduleJob('30 9 * * *', function () {
+        console.log('执行任务' + moment().format('YYYY-MM-DD HH:mm:ss'));
+        job();
+    });
+}
