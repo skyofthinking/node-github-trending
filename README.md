@@ -46,11 +46,13 @@ node scraper.js 2017-10-28 2017
 - [caolan/async: Async utilities for node and the browser](https://github.com/caolan/async) 异步转同步
 
 ### 参考
+- [在Linux系统安装Nodejs 最简单步骤](http://www.cnblogs.com/liuqi/p/6483317.html)
 - [分享一个自己写的github-trending小工具](http://www.jianshu.com/p/25722080c73d)
 - [使用PM2将Node.js的集群变得更加容易](http://www.cnblogs.com/jaxu/p/5193643.html)
 - [使用高大上的pm2代替forever部署nodejs项目](http://www.jianshu.com/p/fdc12d82b661)
 - [nodejs部署方式-pm2(一)](http://www.tuicool.com/articles/773mmqN)
 - [Nodejs异步流程控制Async](http://blog.fens.me/nodejs-async/)
+- [解决Failed to add the host to the list of known hosts](http://blog.csdn.net/cloudsben/article/details/8177376)
 
 ### License
 [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0)
