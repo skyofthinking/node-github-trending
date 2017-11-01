@@ -129,7 +129,7 @@ function job_start(strdate, stryear) {
 
     createMarkdown(strdate, filename);
 
-    var languages = ['java', 'vue', 'kotlin', 'javascript', 'css'];
+    var languages = ['java', 'vue', 'kotlin', 'javascript', 'css', 'objective-c', 'swift', 'html'];
 
     // 使用async处理异步问题
     async.series([
